@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="src/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/eb1c9c2a9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Carrot Game🥕</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section class="game">
+      <div class="start__bg">
+        <button class="start__btn">
+          <span class="start__carrot">Carrot🥕</span>
+        </button>
+      </div>
+
+      <header class="game__header">
+        <button class="game__btn"><i class="fas fa-play"></i></button>
+        <div class="game__info">
+          <span class="game__timer">00:00</span>
+          <div class="game__carrot">
+            <sapn>🥕</sapn>
+            <span class="game__score"></span>
+          </div>
+        </div>
+      </header>
+
+      <section class="game__field"></section>
+    </section>
+    <section class="pop-up pop-up--hide">
+      <span class="pop-up__massage"></span>
+      <button class="pop-up__btn">
+        <i class="fas fa-redo"></i>
+      </button>
+    </section>
+  </body>
+</html>
